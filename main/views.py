@@ -24,7 +24,7 @@ def main(request):
         u.save()
     countdata = Visitor.objects.all().count()
 
-    aboutdata = About.objects.all()
+    aboutdata = About.objects.all()[0]
     sliderdata = SliderItem.objects.all()
     academicdata = Academic.objects.all()
     experiencedata = Experience.objects.all()
