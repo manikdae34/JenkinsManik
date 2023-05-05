@@ -1,8 +1,5 @@
-asgiref==3.6.0
-Django==4.1.7
-django-ckeditor==6.5.1
-django-js-asset==2.0.0
-django-resized==1.0.2
-Pillow==9.4.0
-sqlparse==0.4.3
-tzdata==2022.7
+distlib==0.3.6
+filelock==3.8.0
+platformdirs==2.5.2
+virtualenv==20.16.6
+whitenoise==6.4.0
