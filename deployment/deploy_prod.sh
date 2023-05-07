@@ -1,6 +1,6 @@
 #!/bin/sh
 
-ssh apps@27.147.180.32 <<EOF
+ssh root@27.147.180.32 <<EOF
   cd JenkinsManik
   git pull
   source /opt/envs/JenkinsManik/bin/activate
